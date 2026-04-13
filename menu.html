@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - The Coffee Palette</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-cream">
+
+    <!-- Navigation Header -->
+    <header id="header" class="premium-header scrolled">
+        <div class="wrapper nav-container">
+            <div class="logo">
+                <a href="index.html#home">The Coffee Palette</a>
+            </div>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-toggle" id="mobile-toggle">
+                <i data-lucide="menu" size="30"></i>
+            </div>
+        </div>
+    </header>
+
+    <div style="height: 100px;"></div>
+
+    <section class="section-padding text-center">
+        <div class="wrapper">
+            <h1 style="font-size: 56px; margin-bottom: 20px;">Our <span class="gold-text">Menu</span></h1>
+            <p>Premium coffee and gourmet delights prepared with love.</p>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="section-padding bg-white">
+        <div class="wrapper">
+            <!-- Reuse original grid layout -->
+            <div class="experience-grid">
+                <div class="exp-card">
+                    <div class="exp-info">
+                        <h3>Golden Crispy Prawns</h3>
+                        <p class="gold-text">₹595.00</p>
+                    </div>
+                </div>
+                <!-- ... other items ... -->
+                 <div class="exp-card">
+                    <div class="exp-info">
+                        <h3>Veg Barbados Pizza</h3>
+                        <p class="gold-text">₹395.00</p>
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <div class="exp-info">
+                        <h3>Cold Coffee Brownie</h3>
+                        <p class="gold-text">₹185.00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-40">
+                <a href="https://wa.me/918090753057" class="btn btn-gold">Order via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-center">
+        <p>© 2026 The Coffee Palette.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
